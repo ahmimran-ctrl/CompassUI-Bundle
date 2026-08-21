@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CompassUI - Restaurant Landing Page Template</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+    .font-heading { font-family: 'Playfair Display', serif; }
+    .font-body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#FFF8F0] text-[#3E2F2F] font-body">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 bg-[#FFF8F0]/90 backdrop-blur-md z-50 shadow-sm border-b border-orange-100">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold font-heading text-[#D97706]">🧭 CompassUI</h1>
+      <div class="hidden md:flex space-x-8 font-semibold">
+        <a href="#features" class="hover:text-[#D97706]">Features</a>
+        <a href="#menu" class="hover:text-[#D97706]">Demo Menu</a>
+        <a href="#included" class="hover:text-[#D97706]">Included</a>
+      </div>
+      <a href="#" class="bg-[#D97706] text-white px-5 py-2 rounded-full font-semibold hover:bg-orange-500">Buy Template</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <span class="bg-[#D97706]/10 text-[#D97706] px-4 py-2 rounded-full text-sm font-semibold">Restaurant Template #2</span>
+      <h2 class="text-5xl md:text-6xl font-heading leading-tight mt-4">Launch Your Restaurant Website <br> With <span class="text-[#D97706]">Taste</span></h2>
+      <p class="mt-6 text-lg text-gray-600">A premium Tailwind template for restaurants, cafes, and food businesses. Fully responsive and ready to customize with your menu.</p>
+      <div class="mt-8 flex gap-4">
+        <a href="#" class="bg-[#D97706] text-white px-8 py-3 rounded-full font-bold hover:bg-orange-500">Buy Now - $49 Bundle</a>
+        <a href="#menu" class="bg-[#3E2F2F] text-white px-8 py-3 rounded-full font-bold hover:bg-black">Live Preview</a>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070" alt="Restaurant Food" class="rounded-3xl shadow-2xl">
+    </div>
+  </section>
+
+  <!-- Menu Demo Section -->
+  <section id="menu" class="bg-white py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-4xl font-heading text-center mb-4">Demo Menu Section</h3>
+      <p class="text-center text-gray-500 mb-12">Easily replace with your own food items</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        
+        <div class="bg-[#FFF8F0] p-6 rounded-2xl border-orange-100 hover:border-[#D97706] shadow-sm hover:shadow-xl transition">
+          <img src="https://images.unsplash.com/photo-1631515242808-497c3fbd3972?q=80&w=1974" class="rounded-xl h-48 w-full object-cover">
+          <h4 class="font-bold text-2xl mt-4 font-heading">Chicken Biryani</h4>
+          <p class="text-gray-600 mt-2">Fragrant basmati rice with tender chicken pieces.</p>
+          <p class="text-2xl font-bold text-[#D97706] mt-4">$8.99</p>
+        </div>
+
+        <div class="bg-[#FFF8F0] p-6 rounded-2xl border-gray-100 hover:border-[#D97706] shadow-sm hover:shadow-xl transition">
+          <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=1968" class="rounded-xl h-48 w-full object-cover">
+          <h4 class="font-bold text-2xl mt-4 font-heading">Beef Kacchi</h4>
+          <p class="text-gray-600 mt-2">Traditional dum cooked beef with potatoes.</p>
+          <p class="text-2xl font-bold text-[#D97706] mt-4">$12.99</p>
+        </div>
+
+        <div class="bg-[#FFF8F0] p-6 rounded-2xl border-gray-100 hover:border-[#D97706] shadow-sm hover:shadow-xl transition">
+          <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=2070" class="rounded-xl h-48 w-full object-cover">
+          <h4 class="font-bold text-2xl mt-4 font-heading">Grill Platter</h4>
+          <p class="text-gray-600 mt-2">Chicken grill, naan, salad and sauce.</p>
+          <p class="text-2xl font-bold text-[#D97706] mt-4">$10.99</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-4xl font-heading">Template Features</h3>
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+        <div class="border border-orange-100 p-6 rounded-2xl">
+          <div class="text-5xl">📱</div>
+          <h4 class="font-bold text-xl mt-4 font-heading">Food Menu Grid</h4>
+          <p class="text-gray-600">Ready section to showcase your dishes</p>
+        </div>
+        <div class="border border-orange-100 p-6 rounded-2xl">
+          <div class="text-5xl">📍</div>
+          <h4 class="font-bold text-xl mt-4 font-heading">Contact + Map</h4>
+          <p class="text-gray-600">Location, hours, and phone section</p>
+        </div>
+        <div class="border border-orange-100 p-6 rounded-2xl">
+          <div class="text-5xl">⚡</div>
+          <h4 class="font-bold text-xl mt-4 font-heading">Fast & Lightweight</h4>
+          <p class="text-gray-600">Optimized for speed and mobile</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="included" class="bg-[#3E2F2F] text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-4xl font-heading">Get All 5 CompassUI Templates</h3>
+      <p class="mt-4 text-gray-300">This Restaurant template + Agency, Course, Startup, Portfolio</p>
+      <a href="#" class="mt-8 inline-block bg-[#D97706] px-10 py-4 rounded-full font-bold text-lg hover:bg-orange-500">Buy Full Bundle for $49</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-black text-gray-400">
+    <p>© 2026 CompassUI Templates. Built for Food Businesses.</p>
+  </footer>
+
+</body>
+</html>
